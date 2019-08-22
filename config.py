@@ -98,7 +98,7 @@ def setWalpaper(data):
 def getMetaData():
 	msgBody = {
 	"deviceIMEI":getserial(),
-	"deviceIP":getIP()
+	"deviceIP":"192.168.1.2"
 	}
 	print msgBody
 	try:
